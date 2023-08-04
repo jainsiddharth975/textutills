@@ -64,13 +64,13 @@ export default function TextForms(props) {
                     <textarea className="form-control" onChange={handleTextChange} style={{backgroundColor:props.mode==='light'?'white':'#042743', 
                         color:props.mode==='light'?'#042743':'White'}} value={text} id="myBox" rows="8" ></textarea>
                 </div>
-                <button className="btn btn-primary mx-1" onClick={handleUpperCaseClick}>Convert to Upper Case</button>
-                <button className="btn btn-primary mx-1" onClick={handleLowerCaseClick}>Convert to Lower Case</button>
-                <button className="btn btn-primary mx-1" onClick={handleClearClick}>All Clear</button>
-                <button className="btn btn-primary mx-1" onClick={handleCopyClick}>Copy Text</button>
-                <button className="btn btn-primary mx-1" onClick={handleExtraSpaceClick}>Remove Extra Space</button>
-                <button className="btn btn-primary mx-1" onClick={handleReverseClick}>Reverse Text</button>
-                <button className="btn btn-primary mx-1" onClick={handleSpeekClick}>Speak</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleUpperCaseClick}>Convert to Upper Case</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleLowerCaseClick}>Convert to Lower Case</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleClearClick}>All Clear</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleCopyClick}>Copy Text</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleExtraSpaceClick}>Remove Extra Space</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleReverseClick}>Reverse Text</button>
+                <button className="btn btn-primary mx-1 my-2" onClick={handleSpeekClick}>Speak</button>
 
             </div>
             <div className="container my-3" style={{color:props.mode==='light'?'#042743':'White'}}>
