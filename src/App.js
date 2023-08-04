@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './Component/Navbar';
-import TextForms from './Component/TextForms';
+import TextForms from './Component/TextForm';
 import Alert from './Component/Alert';
 // import About from './Component/AboutUs';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
