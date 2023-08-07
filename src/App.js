@@ -20,7 +20,7 @@ function App() {
     }, 3000);
   }
 
-  const toggleMode = () => {
+  const toggleMode = (cls) => {
 
     if (mode === 'dark') {
       console.log("light mode");
@@ -43,7 +43,7 @@ function App() {
         <div className="container my-4">
 
           <Routes>
-            <Route exact path='/about' element={< About />}></Route>
+            <Route exact path='/about' element={< About mode={mode}/>}></Route>
             <Route exact path='/' element={<TextForms showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />}></Route>
           </Routes>
           {/* <TextForms showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} /> */}
