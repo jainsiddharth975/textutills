@@ -20,7 +20,20 @@ function App() {
     }, 3000);
   }
 
-  const toggleMode = (cls) => {
+  // const removeBodyClasses = ()=>{
+  //   document.body.classList.remove('bg-light');
+  //   document.body.classList.remove('bg-dark');
+  //   document.body.classList.remove('bg-warning');
+  //   document.body.classList.remove('bg-success');
+  //   document.body.classList.remove('bg-danger');
+  //   document.body.classList.remove('bg-primary');
+  // }
+
+  // const toggleMode = (cls) => {
+    // removeBodyClasses();
+    // console.log(cls);
+    // document.body.classList.add('bg-'+cls)
+    const toggleMode = () => {
 
     if (mode === 'dark') {
       console.log("light mode");
